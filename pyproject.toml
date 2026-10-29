@@ -24,3 +24,5 @@ dependencies = ["imageio-ffmpeg", "deno"]
 "android.permission.MANAGE_EXTERNAL_STORAGE" = true
 [dependency-groups]
 dev = ["flet[all]"]
+[tool.flet.app]
+path = "src"
